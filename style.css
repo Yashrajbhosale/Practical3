@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	align-items: center;
+	background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+	color: #0f172a;
+	display: flex;
+	font-family: Georgia, "Times New Roman", serif;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+}
+
+h1 {
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 1px solid #bae6fd;
+	border-radius: 12px;
+	box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+	font-size: clamp(2rem, 8vw, 4rem);
+	letter-spacing: 0.04em;
+	margin: 0;
+	padding: 2rem 3rem;
+}
